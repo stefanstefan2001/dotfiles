@@ -5,11 +5,7 @@
 + [Initial Setup and Installation](#initial-setup-and-installation)
 + [ZSH Setup](#zsh-setup)
 + [Vim and Neovim Setup](#vim-and-neovim-setup)
-+ [Tmux Configuration](#tmux-configuration)
-+ [Git configuration](#git-configuration)
-+ [OSX configuration](osx-configuration)
-+ [Homebrew](#homebrew)
-+ [Node Installation](#node-installation)
+
 
 ## Initial Setup and Installation
 
