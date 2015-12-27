@@ -40,7 +40,8 @@ ZSH is configured in the `zshrc.symlink` file, which will be symlinked to the ho
 * Setup NVM, RVM, and hub if they exist
 * Set the base16 colorscheme to use for both the terminal (iTerm2) and vim/neovim by exporting the `$THEME` and `$BACKGROUND` environment variables
 * And more...
-* 
+ 
+
 ## Vim and Neovim Setup
 
 vim and neovim should just work once the correct plugins are installed. To install the plugins, you will need to open vim/neovim in the following way:
