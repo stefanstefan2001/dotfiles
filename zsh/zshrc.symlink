@@ -85,6 +85,6 @@ source $BASE16_SHELL
 
 #Things added by me
 ZSH_THEME="aussiegeek"
-source $OZSH/oh-my-zsh.sh
+#source $OZSH/oh-my-zsh.sh
 HIST_STAMPS="dd/mm/yyyy"
 
