@@ -62,13 +62,6 @@ I am currently using [Hack](http://sourcefoundry.org/hack/) as my default font, 
 
 -----
 
-+ zsh configuration
-+ vim configuration
-+ tmux configuration
-+ git configuration
-+ osx configuration
-+ Node.js setup (nvm)
-+ Homebrew
 
 ## Install
 
