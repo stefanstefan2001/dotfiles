@@ -10,8 +10,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'chriskempson/base16-vim'
 
 
-Plug 'kien/ctrlp.vim'
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] } | Plug 'Xuyuanp/nerdtree-git-plugin' | Plug 'ryanoasis/vim-devicons'
+"Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'mileszs/ack.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'tpope/vim-commentary'
@@ -20,7 +20,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'
 Plug 'benmills/vimux'
-Plug 'bling/vim-airline'
+" Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'
 " Plug 'benekastah/neomake'
 Plug 'tpope/vim-fugitive'
@@ -49,25 +49,30 @@ Plug 'othree/html5.vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
-Plug 'mxw/vim-jsx', { 'for': 'jsx' }
+" Plug 'mxw/vim-jsx', { 'for': 'jsx' }
 Plug 'elzr/vim-json', { 'for': 'json' }
-Plug 'Quramy/tsuquyomi', { 'for': 'typescript', 'do': 'npm install' }
+" Plug 'Quramy/tsuquyomi', { 'for': 'typescript', 'do': 'npm install' }
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+" Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 " Plug 'juvenn/mustache.vim', { 'for': 'mustache' }
-Plug 'mustache/vim-mustache-handlebars'
-Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
-Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+" Plug 'mustache/vim-mustache-handlebars'
+" Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+" Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] }
 Plug 'groenewege/vim-less', { 'for': 'less' }
 Plug 'ap/vim-css-color', { 'for': 'css' }
 Plug 'hail2u/vim-css3-syntax', { 'for': 'css' }
 Plug 'itspriddle/vim-marked', { 'for': 'markdown', 'on': 'MarkedOpen' }
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'timcharper/textile.vim', { 'for': 'textile' }
+" Plug 'fatih/vim-go', { 'for': 'go' }
+" Plug 'timcharper/textile.vim', { 'for': 'textile' }
 " Plug 'tclem/vim-arduino'
 " Plug 'davidoc/taskpaper.vim'
 
 call plug#end()
 filetype plugin indent on
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+    

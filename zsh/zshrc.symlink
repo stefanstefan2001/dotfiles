@@ -1,6 +1,6 @@
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/zsh
-export OZSH=$HOME/.oh-my-zsh
+#export OZSH=$ZSH/oh-my-zsh
 
 
 # display how long all tasks over 10 seconds take
@@ -15,7 +15,7 @@ if [[ -d ~/code ]]; then
 fi
 
 # source all .zsh files inside of the zsh/ directory
-for config ($ZSH/**/*.zsh) source $config
+for config ($ZSH/*.zsh) source $config
 
 if [[ -a ~/.localrc ]]; then
     source ~/.localrc
@@ -28,7 +28,7 @@ compinit
 
 for config ($ZSH/**/*completion.sh) source $config
 
-export EDITOR='nvim'
+export EDITOR='mvim'
 
 export PATH=/usr/local/bin:$PATH
 
@@ -84,7 +84,6 @@ BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
 source $BASE16_SHELL
 
 #Things added by me
-ZSH_THEME="aussiegeek"
-#source $OZSH/oh-my-zsh.sh
+#ZSH_THEME="aussiegeek"
 HIST_STAMPS="dd/mm/yyyy"
 
