@@ -96,8 +96,8 @@ set-option -g status-right-length 90
 #set-option -g status-right "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh right)"
 #set-window-option -g window-status-current-format "#[fg=colour235, bg=colour27]⮀#[fg=colour255, bg=colour27] #I ⮁ #W #[fg=colour27, bg=colour235]⮀"
 
-bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
-bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
+#bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
+#bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
 
 
 ################## Tmux Plugin Manager
