@@ -114,5 +114,7 @@ set -g @plugin 'jbnicolai/tmux-fpp'
 
 ##### Configure 
 set -g @continuum-restore 'on'
+set -g @resurrect-capture-pane-contents 'on'
+set -g @resurrect-strategy-vim 'session'
 
 run '~/.tmux/plugins/tpm/tpm'
