@@ -5,6 +5,7 @@
 + [Initial Setup and Installation](#initial-setup-and-installation)
 + [ZSH Setup](#zsh-setup)
 + [Vim and Neovim Setup](#vim-and-neovim-setup)
++ [TMP key bindings](#tpm)
 
 
 ## Initial Setup and Installation
@@ -59,6 +60,37 @@ nvim +PlugInstall
 ### Fonts
 
 I am currently using [Hack](http://sourcefoundry.org/hack/) as my default font, which does include Powerline support, so you don't need an additional patched font. In addition to this, I do have [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) installed and configured to be used for non-ascii characters. If you would prefer not to do this, then simply remove the `Plug 'ryanoasis/vim-devicons'` plugin from vim/nvim
+
+
+## TPM
+
+
+### Installing plugins
+
+1. Add new plugin to `~/.tmux.conf` with `set -g @plugin '...'`
+2. Press `prefix + I` (capital I, as in **I**nstall) to fetch the plugin.
+
+You're good to go! The plugin was cloned to `~/.tmux/plugins/` dir and sourced.
+
+### Uninstalling plugins
+
+1. Remove (or comment out) plugin from the list.
+2. Press `prefix + alt + u` (lowercase u as in **u**ninstall) to remove the plugin.
+
+All the plugins are installed to `~/.tmux/plugins/` so alternatively you can
+find plugin directory there and remove it.
+
+### Key bindings
+
+`prefix + I`
+- Installs new plugins from GitHub or any other git repository
+- Refreshes TMUX environment
+
+`prefix + U`
+- updates plugin(s)
+
+`prefix + alt + u`
+- remove/uninstall plugins not on the plugin list
 
 -----
 
