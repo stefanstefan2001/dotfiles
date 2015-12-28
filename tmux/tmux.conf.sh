@@ -98,3 +98,11 @@ set-option -g status-right-length 90
 
 bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
 bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
+
+
+################## Tmux Plugin Manager
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-battery'
+
+run '~/.tmux/plugins/tpm/tpm'
