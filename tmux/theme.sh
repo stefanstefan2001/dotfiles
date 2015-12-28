@@ -60,7 +60,7 @@ tm_session_name="#[fg=$tm_color_feature,bold]$tm_icon #S"
 
 set -g status-left $tm_session_name' '
 
-set -g status-right ${battery_percentage}' '$tm_spotify' '$tm_date' '$tm_host
+set -g status-right  $tm_spotify' '' Batt: #{battery_icon} #{battery_percentage} #{battery_remain}'' '$tm_date' '$tm_host' '
 bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'"  
 bind -n WheelDownPane select-pane -t= \; send-keys -M 
 set-option -g mouse on
