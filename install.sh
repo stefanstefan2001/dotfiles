@@ -25,6 +25,9 @@ if [ "$(uname)" == "Darwin" ]; then
     ln -s ~/.dotfiles/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
     # symlink the code.dev from dotfiles
     ln -s ~/.dotfiles/nginx/code.dev /usr/local/etc/nginx/sites-enabled/code.dev
+    
+    echo "Installing Tmux Pakege Manager"
+    source install/tpm.sh
 fi
 
 echo "creating vim directories"
