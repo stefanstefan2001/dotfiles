@@ -2,6 +2,7 @@ export DOTFILES=$HOME/.dotfiles
 export ZSH=$DOTFILES/zsh
 #export OZSH=$ZSH/oh-my-zsh
 
+source $ZSH/oh-my-zsh.sh
 
 # display how long all tasks over 10 seconds take
 export REPORTTIME=10
@@ -28,7 +29,7 @@ compinit
 
 for config ($ZSH/**/*completion.sh) source $config
 
-export EDITOR='mvim'
+export EDITOR='vim'
 
 export PATH=/usr/local/bin:$PATH
 
@@ -86,4 +87,7 @@ source $BASE16_SHELL
 #Things added by me
 #ZSH_THEME="aussiegeek"
 HIST_STAMPS="dd/mm/yyyy"
+
+plugins=(git tmux tmuxinator)
+
 

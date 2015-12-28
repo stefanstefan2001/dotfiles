@@ -17,7 +17,9 @@ TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR=${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLO
 
 TMUX_POWERLINE_DEFAULT_LEFTSIDE_SEPARATOR=${TMUX_POWERLINE_DEFAULT_LEFTSIDE_SEPARATOR:-$TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}
 TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SEPARATOR=${TMUX_POWERLINE_DEFAULT_RIGHTSIDE_SEPARATOR:-$TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}
+tm_color_music=colour10
 
+tm_spotify="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/spotify.scpt)"
 
 # Format: segment_name background_color foreground_color [non_default_separator]
 
@@ -40,7 +42,8 @@ fi
 if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
 		#"earthquake 3 0" \
-		#"pwd 89 211" \
+		"tm_spotify 235 143" \
+		"pwd 89 211" \
 		"mailcount 9 255" \
 		"now_playing 234 37" \
 		"cpu 240 136" \
@@ -48,8 +51,8 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		"tmux_mem_cpu_load 234 136" \
 		"battery 137 127" \
 		#"weather 37 255" \
-		"rainbarf 0 0" \
-		#"xkb_layout 125 117" \
+		"rainbarf 125 117" \
+		"xkb_layout 125 117" \
 		#"date_day 235 136" \
 		"date 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		"time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \

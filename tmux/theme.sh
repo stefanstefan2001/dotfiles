@@ -15,7 +15,7 @@ tm_separator_right_thin="❯"
 
 set -g status-left-length 32
 set -g status-right-length 150
-set -g status-interval 5
+set -g status-interval 10
 
 
 # default statusbar colors
@@ -59,7 +59,7 @@ tm_host="#[fg=$tm_color_feature,bold]#h"
 tm_session_name="#[fg=$tm_color_feature,bold]$tm_icon #S"
 
 set -g status-left $tm_session_name' '
-set -g status-right $tm_itunes' '$tm_date' '$tm_host
+set -g status-right $tm_spotify' 'tm_battery' '$tm_date' '$tm_host
 
 bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'"  
 bind -n WheelDownPane select-pane -t= \; send-keys -M 
