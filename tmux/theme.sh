@@ -54,7 +54,7 @@ tm_spotify="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/spotify.sc
 tm_itunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/itunes.scpt)"
 tm_rdio="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/rdio.scpt)"
 tm_battery="#(~/.dotfiles/bin/battery_indicator.sh)"
-tm_batt="#[fg=$tm_color_battery,bold] Batt: #{battery_icon} #{battery_percentage} #{battery_remain}"
+tm_batt="#[fg=$tm_color_battery,bold] Batt:#{battery_icon} #{battery_percentage}"
 
 tm_date="#[fg=$tm_color_inactive] %R %d %b"
 tm_host="#[fg=$tm_color_feature,bold]#h"

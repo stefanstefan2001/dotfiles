@@ -57,7 +57,8 @@ set-option -g allow-rename off
 ######################
 
 # reload config file
-bind r source-file ~/.tmux.conf \; display "Config Reloaded!"
+bind r source-file ~/.tmux.conf \; 
+#display "Config Reloaded!"
 
 # quickly open a new window
 bind N new-window
