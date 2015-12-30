@@ -99,7 +99,6 @@ set-option -g status-left-length 90
 #bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
 #bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
 
-
 ################## Tmux Plugin Manager
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
@@ -113,8 +112,10 @@ set -g @plugin 'jbnicolai/tmux-fpp'
 
 
 ##### Configure 
-set -g @continuum-restore 'on'
+#set -g @continuum-restore 'on'
 set -g @resurrect-capture-pane-contents 'on'
 set -g @resurrect-strategy-vim 'session'
 
+
 run '~/.tmux/plugins/tpm/tpm'
+
