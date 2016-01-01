@@ -94,3 +94,7 @@ plugins=(git tmux tmuxinator)
 #export WECHALLTOKEN="A6541-88E65-071C5-30657-47282-2C559"
 
 #set -Ux WECHALLUSER "stefsteve"
+
+
+#link the xcode toolchain to the command line
+export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
