@@ -25,7 +25,7 @@ run_segment() {
 			opts="--short"
 		fi
 	fi
-
+  #FIXME: this asumes that we are running on OS X
     scutil --get LocalHostName #${opts}
 	return 0
 }

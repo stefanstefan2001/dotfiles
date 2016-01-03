@@ -59,15 +59,18 @@
     # ---------------------
     # Copy & Paste
     # ---------------------
-    # provide access to the clipboard for pbpaste, pbcopy
-    set-option -g default-command "reattach-to-user-namespace -l zsh"
-    #set-window-option -g automatic-rename on
-
+   
     # use vim keybindings in copy mode
     setw -g mode-keys vi
 
     # setup 'v' to begin selection as in Vim
     bind-key -t vi-copy v begin-selection
+    
+    #FIXME: Reattach to user namespace is only available on OS X
+    # provide access to the clipboard for pbpaste, pbcopy
+    set-option -g default-command "reattach-to-user-namespace -l zsh"
+    #set-window-option -g automatic-rename on
+
     bind-key -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
 
     # update default binding of 'Enter' to also use copy-pipe

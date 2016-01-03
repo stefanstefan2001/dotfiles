@@ -3,7 +3,10 @@ bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft=
 bind -n WheelDownPane select-pane -t= \; send-keys -M 
 set-option -g mouse on
 
-set -g default-command "reattach-to-user-namespace -l zsh"
+#FIXME: Reattach to user namespace is only available on OS X
+
+    set -g default-command "reattach-to-user-namespace -l zsh"
+
 # tmux display things in 256 colors
 set -g default-terminal "screen-256color"
 set -g status-utf8 on
