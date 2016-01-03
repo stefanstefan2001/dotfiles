@@ -84,22 +84,24 @@ bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-
 ##############################
 ### Color & Style Settings (Powerline) ###
 ##############################
-source ~/.dotfiles/tmux/theme.sh
+#source ~/.dotfiles/tmux/theme.sh
 
-#set-option -g status on
-#set-option -g status-interval 60
+set-option -g status on
+set-option -g status-interval 10
 set-option -g status-utf8 on
-#set-option -g status-justify "right"
+set-option -g status-justify "right"
 set-option -g status-left-length 90
-#set-option -g status-right-length 90
+set-option -g status-right-length 90
 
-#set-option -g status-left "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh left)"
-#set-option -g status-right "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh right)"
+set-option -g status-left "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh left)"
+set-option -g status-right "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh right)"
 #set-window-option -g window-status-current-format "#[fg=colour235, bg=colour27]⮀#[fg=colour255, bg=colour27] #I ⮁ #W #[fg=colour27, bg=colour235]⮀"
 
-#bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
-#bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
+bind C-[ run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh left'      # Mute left statusbar.
+bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
 
+
+source ~/.dotfiles/tmux/aux.sh
 ################## Tmux Plugin Manager
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
