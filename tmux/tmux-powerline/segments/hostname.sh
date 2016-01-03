@@ -26,6 +26,6 @@ run_segment() {
 		fi
 	fi
 
-	hostname ${opts}
+    scutil --get LocalHostName #${opts}
 	return 0
 }

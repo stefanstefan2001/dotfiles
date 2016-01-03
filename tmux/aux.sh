@@ -1,3 +1,4 @@
+## A messy copyed conf from someone else
 # use UTF8
     set -g utf8
     set-window-option -g utf8 on
@@ -23,8 +24,8 @@
     set-option -g base-index 1
     setw -g pane-base-index 1
 
-    # reload ~/.tmux.conf using PREFIX r
-    #bind r source-file ~/.tmux.conf \; display "Reloaded!"
+    #reload ~/.tmux.conf using PREFIX r
+    bind r source-file ~/.tmux.conf \; display "Reloaded!"
 
     # use PREFIX | to split window horizontally and PREFIX - to split vertically
     bind | split-window -h
@@ -50,7 +51,7 @@
     bind L resize-pane -R 5
 
     # explicitly disable mouse control
-    #setw -g mode-mouse off
+   #setw -g mode-mouse off
    # set -g mouse-select-pane off
    # set -g mouse-resize-pane off
    # set -g mouse-select-window off
@@ -80,8 +81,8 @@
     # set some pretty colors
     # ----------------------
     # set pane colors - hilight the active pane
-    set-option -g pane-border-fg colour235 #base02
-    set-option -g pane-active-border-fg colour240 #base01
+     set-option -g pane-border-fg colour235 #base02
+     set-option -g pane-active-border-fg colour240 #base01
 
     # colorize messages in the command line
     set-option -g message-bg black #base02
@@ -94,7 +95,7 @@
     set -g status-utf8 on                  # set utf-8 for the status bar
     # set -g status-interval 5               # set update frequencey (default 15 seconds)
     set -g status-justify centre           # center window list for clarity
-    # set-option -g status-position top    # position the status bar at top of screen
+    set-option -g status-position top    # position the status bar at top of screen
 
     # visual notification of activity in other windows
     setw -g monitor-activity on
@@ -105,17 +106,17 @@
     set-option -g status-fg yellow #yellow
     set-option -g status-attr dim 
 
-    # set window list colors - red for active and cyan for inactive
-    #set-window-option -g window-status-fg brightblue #base0
+    # set window list colors - red/orange for active and gray for inactive
+    set-window-option -g window-status-fg colour243 #gray
     set-window-option -g window-status-bg colour235
     set-window-option -g window-status-attr dim
 
-    #set-window-option -g window-status-current-fg brightred #orange
+    set-window-option -g window-status-current-fg colour202 #orange
     set-window-option -g window-status-current-bg colour235
     set-window-option -g window-status-current-attr bright
 
     # show host name and IP address on left side of status bar
-# set -g status-left-length 70
+ # set -g status-left-length 70
  #  set -g status-left "#[fg=green]: #h : #[fg=brightblue]#(curl icanhazip.com) #[fg=yellow]#(ifconfig en0 | grep 'inet ' | awk '{print \"en0 \" $2}') #(ifconfig en1 | grep 'inet ' | awk '{print \"en1 \" $2}') #[fg=red]#(ifconfig tun0 | grep 'inet ' | awk '{print \"vpn \" $2}') "
 
     # show session name, window & pane number, date and time on right side of
