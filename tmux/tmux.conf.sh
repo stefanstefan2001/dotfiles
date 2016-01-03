@@ -90,7 +90,7 @@ bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-
 #source ~/.dotfiles/tmux/theme.sh
 
 set-option -g status on
-set-option -g status-interval 10
+#set-option -g status-interval 10
 set-option -g status-utf8 on
 #set-option -g status-justify "right"
 set-option -g status-left-length 90

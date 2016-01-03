@@ -110,11 +110,11 @@
     set-option -g status-attr dim 
 
     # set window list colors - red/orange for active and gray for inactive
-    set-window-option -g window-status-fg colour243 #gray
+    set-window-option -g window-status-fg colour29 #gray
     set-window-option -g window-status-bg colour235
     set-window-option -g window-status-attr dim
 
-    set-window-option -g window-status-current-fg colour202 #orange
+    set-window-option -g window-status-current-fg colour208 #orange
     set-window-option -g window-status-current-bg colour235
     set-window-option -g window-status-current-attr bright
 
