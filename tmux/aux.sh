@@ -61,7 +61,7 @@
     # ---------------------
     # provide access to the clipboard for pbpaste, pbcopy
     set-option -g default-command "reattach-to-user-namespace -l zsh"
-    set-window-option -g automatic-rename on
+    #set-window-option -g automatic-rename on
 
     # use vim keybindings in copy mode
     setw -g mode-keys vi

@@ -14,7 +14,7 @@ export TMUX_POWERLINE_SEG_MAILCOUNT_MAILBOX_TYPE=""
 
 ## Gmail
 # Enter your Gmail username here WITH OUT @gmail.com.( OR @domain)
-export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_USERNAME=""
+export TMUX_POWERLINE_SEG_MAILCOUNT_GMAIL_USERNAME="scoartastefan"
 # Google password. Recomenned to use application specific password (https://accounts.google.com/b/0/IssuedAuthSubTokens) Leave this empty to get password from OS X keychain.
 # For OSX users : MAKE SURE that you add a key to the keychain in the format as follows
 # Keychain Item name : http://<value-you-fill-in-server-variable-below>

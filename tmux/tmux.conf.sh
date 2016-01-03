@@ -3,7 +3,7 @@ bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft=
 bind -n WheelDownPane select-pane -t= \; send-keys -M 
 set-option -g mouse on
 
-#set -g default-command "reattach-to-user-namespace -l zsh"
+set -g default-command "reattach-to-user-namespace -l zsh"
 # tmux display things in 256 colors
 set -g default-terminal "screen-256color"
 set -g status-utf8 on
@@ -66,16 +66,16 @@ bind N new-window
 # synchronize all panes in a window
 bind y setw synchronize-panes
 
-# set vi mode for copy mode
-#setw -g mode-keys vi
+#set vi mode for copy mode
+setw -g mode-keys vi
 
 # more settings to make copy-mode more vim-like
-#unbind [
-#bind Escape copy-mode
-#unbind p
-#bind p paste-buffer
-#bind -t vi-copy 'v' begin-selection
-#bind -t vi-copy 'y' copy-selection
+unbind [
+bind Escape copy-mode
+unbind p
+bind p paste-buffer
+bind -t vi-copy 'v' begin-selection
+bind -t vi-copy 'y' copy-selection
 
 # Buffers to/from Mac clipboard, yay tmux book from pragprog
 bind C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
