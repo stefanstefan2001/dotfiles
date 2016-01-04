@@ -98,7 +98,7 @@
     set -g status-utf8 on                  # set utf-8 for the status bar
     # set -g status-interval 5               # set update frequencey (default 15 seconds)
     set -g status-justify centre           # center window list for clarity
-    set-option -g status-position top    # position the status bar at top of screen
+    #set-option -g status-position top    # position the status bar at top of screen
 
     # visual notification of activity in other windows
     setw -g monitor-activity on
