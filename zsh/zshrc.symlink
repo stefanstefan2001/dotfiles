@@ -100,4 +100,4 @@ plugins=(git tmux tmuxinator)
 export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
-#source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh

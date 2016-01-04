@@ -32,6 +32,7 @@ Next, the isntall script will perform a check to see if it is running on an OSX 
 
 ZSH is configured in the `zshrc.symlink` file, which will be symlinked to the home directory. The following occurs in this file:
 
+
 * set the `EDITOR` to nvim
 * Load any `~/.terminfo` setup
 * Set the `CODE_DIR` variable, pointing to the location where the code projects exist for exclusive autocompletion with the `c` command
