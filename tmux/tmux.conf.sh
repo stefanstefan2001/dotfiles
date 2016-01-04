@@ -87,14 +87,14 @@ bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-
 ##############################
 ### Color & Style Settings (Powerline) ###
 ##############################
-#source ~/.dotfiles/tmux/theme.sh
+source ~/.dotfiles/tmux/theme.sh
 
 set-option -g status on
 #set-option -g status-interval 10
 set-option -g status-utf8 on
 #set-option -g status-justify "right"
-set-option -g status-left-length 90
-set-option -g status-right-length 90
+set-option -g status-left-length 100
+#set-option -g status-right-length 90
 
 set-option -g status-left "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh left)"
 set-option -g status-right "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh right)"
