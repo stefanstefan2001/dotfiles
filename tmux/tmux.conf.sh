@@ -77,8 +77,8 @@ unbind [
 bind Escape copy-mode
 unbind p
 bind p paste-buffer
-bind -t vi-copy 'v' begin-selection
-bind -t vi-copy 'y' copy-selection
+# bind -t vi-copy 'v' begin-selection
+# bind -t vi-copy 'y' copy-selection
 
 # Buffers to/from Mac clipboard, yay tmux book from pragprog
 bind C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
@@ -90,7 +90,7 @@ bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-
 #source ~/.dotfiles/tmux/theme.sh
 
 set-option -g status on
-set-option -g status-interval 10
+set-option -g status-interval 50
 set-option -g status-utf8 on
 #set-option -g status-justify "right"
 set-option -g status-left-length 100
