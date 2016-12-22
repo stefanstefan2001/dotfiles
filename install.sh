@@ -17,14 +17,14 @@ if [ "$(uname)" == "Darwin" ]; then
     source installosx.sh
 
     echo "Installing node (from nvm)"
-    source install/nvm.sh
+   # source install/nvm.sh
 
     echo "Configuring nginx"
     # create a backup of the original nginx.conf
-    mv /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.original
-    ln -s ~/.dotfiles/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
+    #mv /usr/local/etc/nginx/nginx.conf /usr/local/etc/nginx/nginx.original
+    #ln -s ~/.dotfiles/nginx/nginx.conf /usr/local/etc/nginx/nginx.conf
     # symlink the code.dev from dotfiles
-    ln -s ~/.dotfiles/nginx/code.dev /usr/local/etc/nginx/sites-enabled/code.dev
+    #ln -s ~/.dotfiles/nginx/code.dev /usr/local/etc/nginx/sites-enabled/code.dev
     
     echo "Installing Tmux Pakege Manager"
     source install/tpm.sh
