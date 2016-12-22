@@ -1,7 +1,7 @@
 #smooth scrolling
-bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'"  
-bind -n WheelDownPane select-pane -t= \; send-keys -M 
-set-option -g mouse on
+#bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'"  
+#bind -n WheelDownPane select-pane -t= \; send-keys -M 
+#set-option -g mouse on
 
 #FIXME: Reattach to user namespace is only available on OS X
 
