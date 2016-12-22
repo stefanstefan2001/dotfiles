@@ -1,1 +1,2 @@
 ##this file in empty because tmux doesn't like symlink .tmux.conf ,just source from .tmux.conf  tmux.conf.sh
+

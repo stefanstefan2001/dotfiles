@@ -9,7 +9,7 @@ set-option -g mouse on
 
 # tmux display things in 256 colors
 set -g default-terminal "screen-256color"
-set -g status-utf8 on
+#set -g status-utf8 on
 
 #set -g history-limit 20000
 
@@ -91,7 +91,7 @@ bind C-v run "tmux set-buffer $(reattach-to-user-namespace pbpaste); tmux paste-
 
 set-option -g status on
 set-option -g status-interval 50
-set-option -g status-utf8 on
+#set-option -g status-utf8 on
 #set-option -g status-justify "right"
 set-option -g status-left-length 100
 set-option -g status-right-length 90
