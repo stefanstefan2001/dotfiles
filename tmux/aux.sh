@@ -35,10 +35,10 @@
     bind T swap-window -t 1
 
     # map Vi movement keys as pane movement keys
-    bind h select-pane -L
-    bind j select-pane -D
-    bind k select-pane -U
-    bind l select-pane -R
+    #bind h select-pane -L
+    #bind j select-pane -D
+    #bind k select-pane -U
+    #bind l select-pane -R
 
     # and use C-h and C-l to cycle thru panes
     bind -r C-h select-window -t :-
