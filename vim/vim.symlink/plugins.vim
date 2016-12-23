@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
 " colorschemes
 Plug 'chriskempson/base16-vim'
 
+Plug 'christoomey/vim-tmux-navigator'
 
 "Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }

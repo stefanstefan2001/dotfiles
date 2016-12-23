@@ -1,0 +1,6 @@
+pane	0	1	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	1	1	:ping	1	:*	1	:/Users/stefanscoarta	1	ping	:ping stefanc.local
+-zsh
+window	0	1	1	:*	ae5d,80x23,0,0,0
+window	1	1	1	:*	cb3e,176x47,0,0,1
+state	1	

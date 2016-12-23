@@ -1,0 +1,10 @@
+pane	0	1	:swift	0	:-	1	:/Users/stefanscoarta/swift/swift	1	Vim	:/usr/local/Cellar/macvim/7.4-86/MacVim.app/Contents/MacOS/Vim test/SILOptimizer/cse.sil
+-zsh
+pane	0	2	:Python	1	:*	1	:/Users/stefanscoarta/swift/swift	1	Python	:/usr/local/Cellar/python/2.7.11/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python utils/build-script -t
+-zsh
+pane	0	3	:lldb	0	:	1	:/Users/stefanscoarta/swift	1	lldb	:/Applications/Xcode.app/Contents/Developer/usr/bin/lldb --repl=-target x86_64-apple-darwin15.2.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -color-diagnostics
+-zsh
+window	0	1	0	:-	cc3d,178x47,0,0,0
+window	0	2	1	:*	cc3e,178x47,0,0,1
+window	0	3	0	:	cc3f,178x47,0,0,2
+state	0	

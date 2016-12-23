@@ -1,0 +1,4 @@
+pane	wow	1	:ow	1	:*	1	:/Users/stefanscoarta/.dotfiles	1	man	:man tmux
+-zsh
+window	wow	1	1	:*	cc3d,178x47,0,0,0
+state	wow	

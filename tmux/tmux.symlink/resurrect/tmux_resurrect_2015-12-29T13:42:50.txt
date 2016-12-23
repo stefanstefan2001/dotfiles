@@ -1,0 +1,16 @@
+pane	0	1	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	otw	1	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	work	1	:swift	0	:	1	:/Users/stefanscoarta/swift/swift	1	zsh	:-zsh
+pane	work	2	:ssh	0	:	1	:/Users/stefanscoarta/swift/swift	1	ssh	:ssh iphone
+-zsh
+pane	work	3	:[tmux]	0	:-	1	:/Users/stefanscoarta/dumpdecrypted	1	ssh	:ssh iphone
+-zsh
+pane	work	4	:sftp	1	:*	1	:/Users/stefanscoarta/swift/swift	1	sftp	:sftp iphone
+-zsh
+window	0	1	1	:*	cc3e,178x47,0,0,1
+window	otw	1	1	:*	cc3f,178x47,0,0,2
+window	work	1	0	:	cc40,178x47,0,0,3
+window	work	2	0	:	cc43,178x47,0,0,6
+window	work	3	0	:-	cc46,178x47,0,0,9
+window	work	4	1	:*	664f,178x47,0,0,10
+state	work	0

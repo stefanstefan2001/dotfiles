@@ -1,0 +1,4 @@
+pane	0	1	:git	1	:*	1	:/Users/stefanscoarta/swift/swift	1	git	:/usr/local/bin/git grep + 1
+-zsh
+window	0	1	1	:*	cc3d,178x47,0,0,0
+state	0	

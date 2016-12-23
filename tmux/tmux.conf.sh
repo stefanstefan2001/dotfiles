@@ -115,10 +115,10 @@ set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-sidebar'
 set -g @plugin 'tmux-plugins/tmux-open'
 set -g @plugin 'jbnicolai/tmux-fpp'
-
+set -g @plugin 'christoomey/vim-tmux-navigator'
 
 ##### Configure 
-#set -g @continuum-restore 'on'
+set -g @continuum-restore 'on'
 set -g @resurrect-capture-pane-contents 'on'
 set -g @resurrect-strategy-vim 'session'
 
