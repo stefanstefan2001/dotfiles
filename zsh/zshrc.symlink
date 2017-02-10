@@ -125,3 +125,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 zmodules=(directory spectrum ssh archive environment git history input utility meta custom \
           syntax-highlighting history-substring-search prompt completion)
 
+source <(antibody init)
+antibody bundle < $ZSHD/plugins.txt

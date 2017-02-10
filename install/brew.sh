@@ -35,6 +35,7 @@ brew install markdown
 #zim
 #git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim
 
+brew install getantibody/tap/antibody
 
 # install neovim
 #brew install neovim/neovim/neovim
