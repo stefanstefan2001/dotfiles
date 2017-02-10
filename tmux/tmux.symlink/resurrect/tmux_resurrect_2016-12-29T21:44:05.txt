@@ -1,0 +1,23 @@
+pane	0	1	:panes	0	:	1	:/Users/stefanscoarta	0	vim	:vim
+-zsh
+pane	0	1	:panes	0	:	2	:/Users/stefanscoarta/.dotfiles/tmux	0	zsh	:-zsh
+pane	0	1	:panes	0	:	3	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	2	:sh	1	:*	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	2	:sh	1	:*	2	:/Users/stefanscoarta/Developer/console/console	0	zsh	:-zsh
+pane	0	3	:radare2	0	:-	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	4	:vim	0	:	1	:/Users/stefanscoarta/ckiddie/liveoverflow_youtube/0x10	1	zsh	:-zsh
+pane	0	5	:protostar	0	:	1	:/Users/stefanscoarta	1	ssh	:ssh protostar
+-zsh
+pane	0	5	:protostar	0	:	2	:/Users/stefanscoarta	0	ssh	:ssh protostar
+-zsh
+pane	weechat	1	:weechat	1	:*	1	:/Users/stefanscoarta/Downloads/weechat-1.6/build	1	weechat	:weechat
+-zsh
+pane	weechat	2	:zsh	0	:-	1	:/Users/stefanscoarta/Downloads/weechat-1.6	1	zsh	:-zsh
+window	0	1	0	:	f29c,204x50,0,0{99x50,0,0,2,104x50,100,0[104x25,100,0,3,104x24,100,26,4]}
+window	0	2	1	:*	60c3,204x50,0,0{102x50,0,0,5,101x50,103,0,6}
+window	0	3	0	:-	aea4,204x50,0,0,7
+window	0	4	0	:	b2a5,204x51,0,0,8
+window	0	5	0	:	2c91,204x50,0,0{119x50,0,0,9,84x50,120,0,10}
+window	weechat	1	1	:*	5782,204x50,0,0,13
+window	weechat	2	0	:-	5783,204x50,0,0,14
+state	weechat	

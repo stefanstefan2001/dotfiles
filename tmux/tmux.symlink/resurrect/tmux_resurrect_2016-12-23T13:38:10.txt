@@ -1,0 +1,36 @@
+pane	0	1	:vim	0	:	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	2	:zsh	0	:	1	:/Users/stefanscoarta/.dotfiles	1	zsh	:-zsh
+pane	0	3	:[tmux]	0	:	1	:/Users/stefanscoarta	0	zsh	:-zsh
+pane	0	3	:[tmux]	0	:	2	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	4	:zsh	0	:	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	5	:zsh	0	:-	1	:/Users/stefanscoarta	1	man	:man tmux
+-zsh
+pane	0	6	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	man	1	:vim	0	:	1	:/Users/stefanscoarta	1	vim	:vim
+-zsh
+pane	man	2	:zsh	0	:	1	:/Users/stefanscoarta/.dotfiles	1	zsh	:-zsh
+pane	man	3	:[tmux]	0	:	1	:/Users/stefanscoarta	0	man	:man tmux
+man tmux
+-zsh
+pane	man	3	:[tmux]	0	:	2	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	man	4	:zsh	0	:-	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	man	5	:man	0	:	1	:/Users/stefanscoarta	1	man	:man tmux
+-zsh
+pane	man	5	:man	0	:	2	:/Users/stefanscoarta	0	zsh	:-zsh
+pane	man	5	:man	0	:	3	:/Users/stefanscoarta	0	zsh	:bash /Users/stefanscoarta/.tmux/plugins/tmux-sidebar/scripts/custom_tree.sh
+less --dumb --chop-long-lines --tilde --IGNORE-CASE --RAW-CONTROL-CHARS
+pane	man	6	:man	1	:*	1	:/Users/stefanscoarta	1	man	:man tmux
+-zsh
+window	0	1	0	:	684f,178x48,0,0,10
+window	0	2	0	:	6850,178x48,0,0,11
+window	0	3	0	:	f888,178x48,0,0[178x24,0,0,12,178x23,0,25,13]
+window	0	4	0	:	6853,178x48,0,0,14
+window	0	5	0	:-	6854,178x48,0,0,15
+window	0	6	1	:*	6855,178x48,0,0,16
+window	man	1	0	:	d03e,178x48,0,0,1
+window	man	2	0	:	d03f,178x48,0,0,2
+window	man	3	0	:	310c,178x48,0,0[178x24,0,0,3,178x23,0,25,4]
+window	man	4	0	:-	d042,178x48,0,0,5
+window	man	5	0	:	abe4,178x48,0,0{40x48,0,0,7,68x48,41,0,6,68x48,110,0,8}
+window	man	6	1	:*	d046,178x48,0,0,9
+state	0	

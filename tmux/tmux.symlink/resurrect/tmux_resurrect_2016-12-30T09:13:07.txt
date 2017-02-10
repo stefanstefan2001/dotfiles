@@ -1,0 +1,23 @@
+pane	0	1	:zsh	1	:*	1	:/Users/stefanscoarta/Downloads	1	zsh	:-zsh
+pane	0	2	:sh	0	:	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	2	:sh	0	:	2	:/Users/stefanscoarta/Developer/console/console	0	zsh	:-zsh
+pane	0	3	:radare2	0	:	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	4	:vim	0	:-	1	:/Users/stefanscoarta/ckiddie/liveoverflow_youtube/0x10	0	vim	:vim example.c
+-zsh
+pane	0	4	:vim	0	:-	2	:/Users/stefanscoarta/ckiddie/liveoverflow_youtube/0x10	1	gdb	:gdb example
+-zsh
+pane	0	5	:protostar	0	:	1	:/Users/stefanscoarta	1	ssh	:ssh protostar
+-zsh
+pane	0	5	:protostar	0	:	2	:/Users/stefanscoarta	0	zsh	:-zsh
+pane	2	1	:zsh	1	:*	1	:/private/var/db/BootCaches	1	zsh	:-zsh
+pane	weechat	1	:weechat	1	:*	1	:/Users/stefanscoarta/.Trash/weechat-1.6/build	1	zsh	:-zsh
+pane	weechat	2	:zsh	0	:-	1	:/Users/stefanscoarta/.Trash/weechat-1.6	1	zsh	:-zsh
+window	0	1	1	:*	b29f,204x51,0,0,2
+window	0	2	0	:	e0c1,204x50,0,0{102x50,0,0,4,101x50,103,0,5}
+window	0	3	0	:	aea3,204x50,0,0,6
+window	0	4	0	:-	b2f9,204x51,0,0{102x51,0,0,7,101x51,103,0,13}
+window	0	5	0	:	60f8,204x51,0,0{119x51,0,0,8,84x51,120,0,9}
+window	2	1	1	:*	5781,204x50,0,0,12
+window	weechat	1	1	:*	577f,204x50,0,0,10
+window	weechat	2	0	:-	5780,204x50,0,0,11
+state	0	

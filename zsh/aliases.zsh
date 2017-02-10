@@ -1,6 +1,7 @@
 # reload zsh config
 alias reload!='source ~/.zshrc'
-
+#ssh to iPhone
+alias sou='ssh iphonel'
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
     colorflag="--color"

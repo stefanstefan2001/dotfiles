@@ -1,0 +1,15 @@
+pane	0	1	:vim	0	:	1	:/Users/stefanscoarta	1	vim	:vim
+-zsh
+pane	0	2	:zsh	0	:	1	:/Users/stefanscoarta/.dotfiles	1	zsh	:-zsh
+pane	0	3	:[tmux]	0	:-	1	:/Users/stefanscoarta	0	man	:man tmux
+man tmux
+-zsh
+pane	0	3	:[tmux]	0	:-	2	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	4	:zsh	0	:	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	5	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+window	0	1	0	:	d03e,178x48,0,0,1
+window	0	2	0	:	d03f,178x48,0,0,2
+window	0	3	0	:-	310c,178x48,0,0[178x24,0,0,3,178x23,0,25,4]
+window	0	4	0	:	d042,178x48,0,0,5
+window	0	5	1	:*	d043,178x48,0,0,6
+state	0	

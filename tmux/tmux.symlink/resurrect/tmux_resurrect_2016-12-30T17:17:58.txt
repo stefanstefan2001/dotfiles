@@ -1,0 +1,23 @@
+pane	0	1	:sh	0	:#	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	1	:sh	0	:#	2	:/Users/stefanscoarta/Developer/console/console	0	zsh	:-zsh
+pane	0	2	:radare2	0	:	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	3	:vim	1	:*	1	:/Users/stefanscoarta/ckiddie/liveoverflow_youtube/0x10	1	zsh	:-zsh
+pane	0	4	:protostar	0	:#-	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	4	:protostar	0	:#-	2	:/Users/stefanscoarta	0	zsh	:-zsh
+pane	2	1	:zsh	1	:*	1	:/private/var/db/BootCaches	1	zsh	:-zsh
+pane	3	1	:zsh	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	4	1	:zsh	1	:*	1	:/Users/stefanscoarta/.dotfiles/tmux	1	zsh	:-zsh
+pane	5	1	:reattach-to-user-namespace	1	:*	1	:/Users/stefanscoarta/.dotfiles/tmux	1	zsh	:-zsh
+pane	weechat	1	:weechat	1	:*	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	weechat	2	:zsh	0	:-	1	:/Users/stefanscoarta	1	zsh	:-zsh
+window	0	1	0	:#	4422,168x51,0,0{84x51,0,0,2,83x51,85,0,3}
+window	0	2	0	:	b601,168x51,0,0,4
+window	0	3	1	:*	b603,168x51,0,0,6
+window	0	4	0	:#-	b886,168x51,0,0{101x51,0,0,7,66x51,102,0,8}
+window	2	1	1	:*	b606,168x51,0,0,9
+window	3	1	1	:*	5961,80x24,0,0,12
+window	4	1	1	:*	5962,80x24,0,0,13
+window	5	1	1	:*	5983,204x51,0,0,14
+window	weechat	1	1	:*	5b2f,168x51,0,0,10
+window	weechat	2	0	:-	5b30,168x51,0,0,11
+state	5	

@@ -29,6 +29,13 @@ brew install highlight
 #brew install z
 brew install markdown
 
+
+#zsh antigen
+#brew install antigen
+#zim
+#git clone --recursive https://github.com/Eriner/zim.git ${ZDOTDIR:-${HOME}}/.zim
+
+
 # install neovim
 #brew install neovim/neovim/neovim
 

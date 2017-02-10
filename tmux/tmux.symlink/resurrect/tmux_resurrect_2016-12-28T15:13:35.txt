@@ -1,0 +1,22 @@
+pane	0	1	:zsh	0	:	1	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	2	:panes	0	:	1	:/Users/stefanscoarta	0	vim	:vim
+-zsh
+pane	0	2	:panes	0	:	2	:/Users/stefanscoarta/.dotfiles/tmux	0	zsh	:-zsh
+pane	0	2	:panes	0	:	3	:/Users/stefanscoarta	1	zsh	:-zsh
+pane	0	3	:sh	0	:	1	:/Users/stefanscoarta/Developer/console/console	1	vim	:vim newMain.cpp
+-zsh
+pane	0	3	:sh	0	:	2	:/Users/stefanscoarta/Developer/console/console	0	vim	:vim newMain.s
+-zsh
+pane	0	4	:radare2	0	:	1	:/Users/stefanscoarta/Developer/console/console	1	zsh	:-zsh
+pane	0	5	:vim	0	:-	1	:/Users/stefanscoarta/ckiddie/liveoverflow_youtube/0x10	1	zsh	:-zsh
+pane	0	6	:protostar	1	:*	1	:/Users/stefanscoarta	0	ssh	:ssh protostar
+-zsh
+pane	0	6	:protostar	1	:*	2	:/Users/stefanscoarta	1	ssh	:ssh protostar
+-zsh
+window	0	1	0	:	b29e,204x51,0,0,1
+window	0	2	0	:	14e1,204x51,0,0{99x51,0,0,2,104x51,100,0[104x26,100,0,3,104x24,100,27,4]}
+window	0	3	0	:	e543,204x51,0,0{102x51,0,0,5,101x51,103,0,6}
+window	0	4	0	:	b2a4,204x51,0,0,7
+window	0	5	0	:-	b2a5,204x51,0,0,8
+window	0	6	1	:*	218c,204x51,0,0{94x51,0,0,9,109x51,95,0,10}
+state	0	
