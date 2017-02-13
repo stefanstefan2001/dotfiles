@@ -86,7 +86,7 @@ bind p paste-buffer
 ##############################
 ### Color & Style Settings (Powerline) ###
 ##############################
-#source ~/.dotfiles/tmux/theme.sh
+source ~/.dotfiles/tmux/theme.sh
 
 set-option -g status on
 set-option -g status-interval 50
@@ -103,7 +103,7 @@ set-option -g status-right "#(~/.dotfiles/tmux/tmux-powerline/powerline.sh right
 #bind C-] run '~/.dotfiles/tmux/tmux-powerline/mute_powerline.sh right'     # Mute right statusbar.
 
 #source /usr/local/lib/python2.7/site-packages/powerline/bindings/tmux/powerline.conf
-#source ~/.dotfiles/tmux/aux.sh
+source ~/.dotfiles/tmux/aux.sh
 ################## Tmux Plugin Manager
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'

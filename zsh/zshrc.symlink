@@ -4,6 +4,11 @@
 # User configuration sourced by interactive shells
 #
 
+#Add ops that aren't on in omz
+setopt auto_cd
+setopt multios
+setopt prompt_subst
+
 # Source zim
 if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
   source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
